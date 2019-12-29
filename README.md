@@ -20,12 +20,13 @@ Pour certaines catégories (ex: Hardware), le `README` ne spécifiera pas de dé
 
 ## Liste des catégories
 
- - [General](/general/)
- - [Database](/database/)
- - [Extreme Programming](/extreme/)
- - [Hardware](/hardware/)
- - [Relay](/relay/)
- - [Web](/web/)
- - [Sécurité](/securite/)
- - [DevOps](/devops/)
- - [Mobile](/mobile/)
+ - [General](general/)
+ - [Database](database/)
+ - [Extreme Programming](extreme/)
+ - [Hardware](hardware/)
+ - [Relay](relay/)
+ - [Web](web/)
+ - [Sécurité](securite/)
+ - [DevOps](devops/)
+ - [Mobile](mobile/)
+ - [Fonctionnel](fonctionnel/)
