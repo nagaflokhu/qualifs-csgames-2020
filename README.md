@@ -18,6 +18,10 @@ Pour la plupart des épreuves, il vous sera demandé d'expliquer votre raisonnem
 
 Pour certaines catégories (ex: Hardware), le `README` ne spécifiera pas de défi pour des raisons de temps et de faisabilité. Dans ces cas, nous vous invitons à nous faire part de vos expériences et connaissances liées au domaine ainsi qu'à mettre des liens vers des projets que vous avez fait, si applicable.
 
+## Contraintes
+
+À moins d'indications contraires, les programmes demandés doivent lire leurs entrées par **l'entrée standard (STDIN)** et afficher leurs réponses sur **la sortie standard (STDOUT)**.
+
 ## Liste des catégories
 
  - [General](general/)
