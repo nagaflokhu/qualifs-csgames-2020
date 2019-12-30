@@ -24,11 +24,12 @@ Pour certaines catégories (ex: Hardware), le `README` ne spécifiera pas de dé
 
 ## Liste des catégories
 
+À noter, il est possible que certaines des catégories suivantes ne se retrouvent pas dans l'édition 2020 des CSGames, il s'agit d'une liste basée sur les compétitions annoncées et celles qui reviennent fréquemment. À l'inverse, il est aussi possible que certaines catégories qui seront aux CSGames cette année n'aient pas de défi de qualification associés.
+
  - [General](general/)
  - [Database](database/)
  - [Extreme Programming](extreme/)
  - [Hardware](hardware/)
- - [Relay](relay/)
  - [Web](web/)
  - [Sécurité](securite/)
  - [DevOps](devops/)
