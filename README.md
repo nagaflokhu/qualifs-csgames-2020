@@ -28,7 +28,6 @@ Pour certaines catégories (ex: Hardware), le `README` ne spécifiera pas de dé
 
  - [General](general/)
  - [Database](database/)
- - [Extreme Programming](extreme/)
  - [Hardware](hardware/)
  - [Web](web/)
  - [Sécurité](securite/)
