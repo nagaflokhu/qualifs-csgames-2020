@@ -9,7 +9,7 @@ Ce dépôt devra contenir un fichier `README` à sa racine dans lequel vous indi
 
 Vous devrez donner accès en tant que `Reporter` à votre dépôt à [@CycleOfTheAbsurd](https://gitlab.com/CycleOfTheAbsurd) et [@Calegh](https://gitlab.com/Calegh) afin que nous puissions évaluer vos soumissions.
 
-Chaque défi devra être dans son propre dossier nommé de la même manière que celui-ci. Si vous le désirez, vous pouvez en plus faire un sous-dossier pour chaque catégorie d'épreuves.
+Vous devez créer un sous-dossier pour chaque catégorie d'épreuves (général, database, etc.); utilisez les mêmes noms que dans le repo des qualifications (celui-ci). Si votre réponse pour une épreuve en particulier comporte plusieurs fichiers, vous pouvez créer un sous-dossier pour celle-ci avec un nom au format `epreuve_x` (par exemple, ça donnerait `gitlab.com/USER/REPO/general/epreuve_1`)
 
 Le dépôt actuel contient un répertoire pour chaque catégorie de compétition et un `general` qui contient des défis informatiques généraux qui ne sont pas nécessairement associés à une compétition en particulier. Ceux-ci sont généralement plus accessibles que les défis particuliers à chaque compétition.
 Dans chacun de ces répertoires se trouve un fichier `README`. Celui-ci contient les explications et les contraintes pour les défis de qualification. **Si vous ne respectez pas les contraintes données,** (format de remise, langages, technologies, etc.) **nous ne garantissons pas que votre soumission sera évaluée**. Ces contraintes sont en place pour assurer que nous puissions évaluer justement et dans un temps raisonnable toutes les solutions fournies.
