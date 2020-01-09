@@ -9,7 +9,7 @@ Ce dépôt devra contenir un fichier `README` à sa racine dans lequel vous indi
 
 Vous devrez donner accès en tant que `Reporter` à votre dépôt à [@CycleOfTheAbsurd](https://gitlab.com/CycleOfTheAbsurd) et [@Calegh](https://gitlab.com/Calegh) afin que nous puissions évaluer vos soumissions.
 
-### Organisations du dépôt
+### Organisation du dépôt
 
  - Vous devez créer un sous-dossier pour chaque catégorie d'épreuves (général, database, etc.). Utilisez les mêmes noms que dans le repo des qualifications (celui-ci). 
  - Si votre réponse pour une épreuve en particulier comporte plusieurs fichiers, créez un sous-dossier pour celle-ci avec un nom au format `epreuve_x` (par exemple, ça donnerait `gitlab.com/USER/REPO/general/epreuve_1`)
@@ -36,6 +36,5 @@ Pour certaines catégories (ex: Hardware), le `README` ne spécifiera pas de dé
  - [Hardware](hardware/)
  - [Web](web/)
  - [Sécurité](securite/)
- - [DevOps](devops/)
  - [Mobile](mobile/)
  - [Fonctionnel](fonctionnel/)
