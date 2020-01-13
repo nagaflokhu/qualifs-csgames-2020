@@ -5,6 +5,9 @@ padovan = 1:1:1:(zipWith3 (\a b c -> a + b)
                           (drop 1 padovan)
                           (drop 2 padovan))
 
+main :: IO ()
 main =
   do n <- getLine
-     print $ head $ drop ((read :: String -> Int) n) padovan
+     if ((read :: String -> Int) n) < 0
+     then error "Veuillez entrer un indexe non-négatif."
+     else print $ head $ drop ((read :: String -> Int) n) padovan
