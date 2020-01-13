@@ -21,13 +21,7 @@
     (if (empty? rows)
         all-letter-counts
         (do (def row (first rows))
-            (def row-counts
-              (loop [letters row counts []]
-                (if (empty? letters)
-                    counts
-                    (do (def letter (first letters))
-                        (recur (rest letters)
-                               (concat counts [{letter 1}]))))))
+            (def row-counts (map (fn [letter] {letter 1}) row))
             (recur
               (if (nil? all-letter-counts)
                   row-counts
