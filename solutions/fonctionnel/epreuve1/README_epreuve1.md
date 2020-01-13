@@ -32,4 +32,5 @@ En fait cette solution est la première qui m'est venue en tête mais j'avais
 oublié l'existence de `zipWith3`. La solution est simple: on crée une
 liste/un stream infini dont les trois premiers éléments sont connus (1, 1, 1)
 et dont les autres éléments correspondent à la définition de la suite de
-Padovan (padovan_n = padovan_n-3 + padovan_n-2).
+Padovan (padovan_n = padovan_n-3 + padovan_n-2). Cette solution fonctionne
+parce que Haskell évalue Padovan de manière paresseuse.
