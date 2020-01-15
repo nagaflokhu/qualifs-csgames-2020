@@ -5,7 +5,7 @@ import Data.List (break)
 import Data.Char (isSpace)
 
 main = do
-  directOrbits <- ((map $ splitOn (== ')')) . splitOn (== '\n') . trim)
+  directOrbits <- (map $ splitOn (== ')')) . splitOn (== '\n') . trim
     <$> getContents
   print $ sum $ elems $ addOrbits directOrbits
 
