@@ -5,6 +5,7 @@ Haskell
 ## Dépendances
 
 Glasgow Haskell Compiler : https://www.haskell.org/ghc/download.html
+Unordered Containers: https://hackage.haskell.org/package/unordered-containers
 
 ## Assomptions
 

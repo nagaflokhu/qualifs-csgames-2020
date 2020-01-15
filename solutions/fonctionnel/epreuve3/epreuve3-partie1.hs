@@ -1,6 +1,6 @@
 module Main where
 
-import Data.Map.Strict (elems, Map, empty, insert, findWithDefault)
+import Data.HashMap.Strict (elems, HashMap, empty, insert, lookupDefault)
 import Data.List (break)
 import Data.Char (isSpace)
 
@@ -9,11 +9,11 @@ main = do
     <$> getContents
   print $ sum $ elems $ addOrbits directOrbits
 
-addOrbits :: [[String]] -> Map String Integer
+addOrbits :: [[String]] -> HashMap String Integer
 addOrbits = foldl addOrbit empty where
   addOrbit orbits [parent, child] =
     insert child depth orbits where
-      depth = 1 + findWithDefault 0 parent orbits
+      depth = 1 + lookupDefault 0 parent orbits
 
 splitOn :: (a -> Bool) -> [a] -> [[a]]
 splitOn pred lst =
