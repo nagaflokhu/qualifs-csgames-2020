@@ -6,12 +6,8 @@ import qualified Data.HashMap.Strict as HashMap (
   HashMap, empty, insertWith, (!)
   )
 
-import qualified Data.Map.Strict as Map (
-  empty, insertWith, deleteFindMin, Map, fromList
-  )
-
 import qualified Data.Heap as Heap (
-  fromList, insert, viewHead, drop, split, merge, singleton, MinPrioHeap
+  insert, viewHead, drop, singleton, MinPrioHeap
   )
 
 import qualified Data.HashSet as HashSet (
