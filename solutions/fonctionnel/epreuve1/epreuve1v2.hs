@@ -1,9 +1,6 @@
 module Main where
 
-padovan = 1:1:1:(zipWith3 (\a b c -> a + b)
-                          padovan
-                          (drop 1 padovan)
-                          (drop 2 padovan))
+padovan = 1:1:1:zipWith (+) padovan (drop 1 padovan)
 
 main :: IO ()
 main =
