@@ -8,21 +8,20 @@ Glasgow Haskell Compiler : https://www.haskell.org/ghc/download.html
 Unordered Containers: https://hackage.haskell.org/package/unordered-containers
 Heap: https://hackage.haskell.org/package/heap
 
-## Assomptions
-
-1. Tous les noeuds sont en orbite directe ou indirecte avec le centre de
-   masse. En d'autres mots, les données forment un seul arbre dont la racine
-   est le centre de masse.
-2. Tous les identifiants de noeuds sont uniques.
-3. Il y a un seul chemin à partir de chaque noeud jusqu'au centre de masse.
-
 ## Partie 1
+
+### Assomptions
+
+Mes deux solutions assument qu'il y a un seul chemin à partir de chaque noeud
+jusqu'au centre de masse.
 
 ### Procédure d'exécution
 
-1. `ghc epreuve3-partie1.hs`
+1. `ghc epreuve3-partie1[-v2].hs`
 2. `./epreuve3-partie1 < carte.txt`, où `carte.txt` est un fichier quelconque
    contenant une carte telle que celle utilisée dans le repo CSGames
+
+### Version 1
 
 ### Explication solution
 
@@ -33,6 +32,20 @@ les orbites.
 Chaque noeud peut simplement être représenté par une entrée dans un hash map.
 Le hash map associe l'identifiant des noeuds au nombre d'orbites (directes et
 indirectes) découlant de ce noeud.
+
+Cette solution assume que les noeuds sont en ordre: en premier viennent les
+orbites directes avec le centre de masse, puis les orbites avec un degré de
+séparation avec le centre de masse, etc.
+
+### Version 2
+
+### Explication solution
+
+Cette solution ne recquiert pas que les noeuds soient donnés dans un ordre
+particulier en entrée. La solution est identique à la version 1, sauf qu'au
+lieu de stocker le nombre d'orbites entre un noeud donné et le centre de
+masse dans la hash map, je stocke une fonction qui reçoit la hash map finale
+en paramètre et calcule le nombre d'orbites à la toute fin.
 
 ## Partie 2
 
